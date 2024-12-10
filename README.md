@@ -12,17 +12,24 @@ The product requires Python 3.
     pip install sqlmodel sqlalchemy pandas openai gradio plotly
 ```
 3. Navigate to the repository and edit the following with your details:
-    a. In both gptGradio.py and gptGradioSQLModel.py
-    Replace
+
+   a. In both gptGradio.py and gptGradioSQLModel.py
+
+   Replace
+       
         client = OpenAI(
             api_key=""
         )
     with the key generated initially. example: <api_key>
+    
         client = OpenAI(
             api_key="<api_key>"
         )
+   
     b. In gptGradioSQLModel.py
+   
     Replace the following with the database you want to connect to and the corresponding details.
+   
         # MySQL Database Connection
         MYSQL_HOST = "localhost"
         MYSQL_USER = "root"
