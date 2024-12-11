@@ -31,7 +31,11 @@ The product requires Python 3.
     Replace the following with the database you want to connect to and the corresponding details.
    
         # MySQL Database Connection
-        MYSQL_HOST = "localhost"
+        MYSQL_HOST = "host"
         MYSQL_USER = "root"
         MYSQL_PASSWORD = "password"
         MYSQL_DATABASE = "db_name"
+
+4. Run the 'landingpage.py' file
+
+       path/to/your/python /path/to/landingpage.py
